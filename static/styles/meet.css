@@ -1,0 +1,57 @@
+#profile-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  padding: 20px;
+  background-color: black;
+  line-height: 2rem;
+  color: white;
+  margin: 50px;
+  min-width: 40%;
+  max-width: 650px;
+}
+
+.profile .btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.profile .left-btn,
+.profile .right-btn {
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+
+.left-btn,
+.right-btn {
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+}
+
+.left-btn img,
+.right-btn img {
+  width: 20px;
+  height: 20px;
+}
